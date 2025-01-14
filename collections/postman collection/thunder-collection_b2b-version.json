@@ -1,0 +1,33 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "b2b-version",
+    "dateExported": "2024-01-20T08:39:36.714Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e0e389c8-7e43-4b33-b345-ca5b179db45e",
+            "colId": "3eed6bc7-dbb9-427b-b295-644081b61106",
+            "containerId": "",
+            "name": "http://0.0.0.0:8000/version?type=web",
+            "url": "http://0.0.0.0:8000/version?type=web",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-16T10:22:14.211Z",
+            "modified": "2024-01-16T10:22:14.211Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "type",
+                    "value": "web",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiYWNjb3VudF9pZCI6ImFmY2E5MjAxLWRlZGMtNGI2OS1hZjczLTg4OGE1MjQ2ZTc3NyIsInBhcnRuZXJfaWQiOiJhZDE1MDFjNS02ZWZjLTQxNWUtOGUxMC0wZjdjOTI5NTk0MjkiLCJmaXJzdF9uYW1lIjoic3VyZXNoX2FkbWluIiwibGFzdF9uYW1lIjpudWxsLCJyb2xlcyI6IlN1YlN1cGVyYWRtaW4iLCJlbWFpbCI6InN1cmVzaF9hZG1pbkBzdXJlc2guY29tIiwidXNlcl9ncm91cCI6bnVsbCwic2NvcGUiOiIiLCJpYXQiOjE2OTc2NTA3MjgsImV4cCI6MTY5ODI1NTUyOH0.Qu75btPXf9yR6sbFbHMKgnIls1GOOPpCc1RkQscnhu4"
+            },
+            "tests": []
+        }
+    ]
+}

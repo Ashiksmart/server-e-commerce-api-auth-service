@@ -1,0 +1,4 @@
+*
+!lib/**
+lib/auth
+lib/plugins

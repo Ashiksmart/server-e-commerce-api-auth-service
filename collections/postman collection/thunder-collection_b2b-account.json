@@ -1,0 +1,60 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "b2b-account",
+    "dateExported": "2024-01-20T08:38:26.427Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f481fbd4-5920-487c-9c8e-9268e61869df",
+            "colId": "708d1d6d-3201-4b80-aac6-5c0e1a18f466",
+            "containerId": "",
+            "name": "http://0.0.0.0:8000/account",
+            "url": "http://0.0.0.0:8000/account",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-01-16T10:22:14.200Z",
+            "modified": "2024-01-17T08:17:22.423Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"brand\",\n  \"username\": \"brand\",\n  \"email\": \"brand@gmail.com\",\n  \"address\": \"chennai\",\n  \"phone_number\": \"999999999\",\n  \"primay_logo\": \"http://174.138.123.234/FileManager/1792194d-d930-416e-91c3-85678d46157f/account/Frienddeylogo.png\",\n  \"secondary_logo\": \"sampleurl\",\n  \"primay_color\": \"#1e84f5\",\n  \"secondary_color\": \"#1160b7\",\n  \"storage_service\": \"N\",\n  \"app_url\": \"sampleurl\",\n  \"description\": \"\",\n  \"app_discription\": \"sampleurl\",\n  \"process\": \"ecom\",\n  \"currency\": \"INR\",\n  \"domain\": \"localhost\",\n  \"apidomain\": {\n    \"api\": \"http://174.138.123.234:7003\",\n    \"wop\": \"http://174.138.123.234\",\n    \"auth\": \"http://174.138.123.234:7003\"\n  },\n  \"is_product_limit\": \"N\",\n  \"is_partner_limit\": \"N\",\n  \"is_partner\":\"N\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "83f6c11d-345e-4b80-ac12-1369098ae38e",
+            "colId": "708d1d6d-3201-4b80-aac6-5c0e1a18f466",
+            "containerId": "",
+            "name": "http://0.0.0.0:8000/account",
+            "url": "http://174.138.123.234:9000/account",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-16T10:22:14.201Z",
+            "modified": "2024-01-16T10:22:14.201Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiYWNjb3VudF9pZCI6IjE3OTIxOTRkLWQ5MzAtNDE2ZS05MWMzLTg1Njc4ZDQ2MTU3ZiIsInBhcnRuZXJfaWQiOm51bGwsImZpcnN0X25hbWUiOiJicmFuZCIsImxhc3RfbmFtZSI6ImFkbWluIiwicm9sZXMiOiJTdXBlcmFkbWluIiwiZW1haWwiOiJicmFuZF9hZG1pbkBicmFuZC5jb20iLCJ1c2VyX2dyb3VwIjpudWxsLCJzY29wZSI6ImNhdGVnb3J5OmNyZWF0ZSxjYXRlZ29yeTp2aWV3LGNhdGVnb3J5OnVwZGF0ZSxjYXRlZ29yeTpkZWxldGUscHJvZHVjdDpjcmVhdGUscHJvZHVjdDp2aWV3LHByb2R1Y3Q6dXBkYXRlLHByb2R1Y3Q6ZGVsZXRlLGFkZHJlc3NfaW5mb3JtYXRpb246Y3JlYXRlLGFkZHJlc3NfaW5mb3JtYXRpb246dmlldyxhZGRyZXNzX2luZm9ybWF0aW9uOnVwZGF0ZSxhZGRyZXNzX2luZm9ybWF0aW9uOmRlbGV0ZSxpbnZvaWNlOmNyZWF0ZSxpbnZvaWNlOnZpZXcsaW52b2ljZTp1cGRhdGUsaW52b2ljZTpkZWxldGUsb3JkZXJfZGV0YWlsOmNyZWF0ZSxvcmRlcl9kZXRhaWw6dmlldyxvcmRlcl9kZXRhaWw6dXBkYXRlLG9yZGVyX2RldGFpbDpkZWxldGUsdGFza19sb2c6Y3JlYXRlLHRhc2tfbG9nOnZpZXcsdGFza19sb2c6dXBkYXRlLHRhc2tfbG9nOmRlbGV0ZSxlbXBsb3llZV9pbmZvcm1hdGlvbjpjcmVhdGUsZW1wbG95ZWVfaW5mb3JtYXRpb246dmlldyxlbXBsb3llZV9pbmZvcm1hdGlvbjp1cGRhdGUsZW1wbG95ZWVfaW5mb3JtYXRpb246ZGVsZXRlLGNhcnQ6Y3JlYXRlLGNhcnQ6dmlldyxjYXJ0OnVwZGF0ZSxjYXJ0OmRlbGV0ZSx1c2VyOmNyZWF0ZSx1c2VyOnZpZXcsdXNlcjp1cGRhdGUsdXNlcjpkZWxldGUsbWFya2V0X3BsYWNlOmNyZWF0ZSxtYXJrZXRfcGxhY2U6dmlldyxtYXJrZXRfcGxhY2U6dXBkYXRlLG1hcmtldF9wbGFjZTpkZWxldGUsdGVtcGxhdGU6Y3JlYXRlLHRlbXBsYXRlOnZpZXcsdGVtcGxhdGU6dXBkYXRlLHRlbXBsYXRlOmRlbGV0ZSx0ZW1wbGF0ZXNfZmllbGQ6Y3JlYXRlLHRlbXBsYXRlc19maWVsZDp2aWV3LHRlbXBsYXRlc19maWVsZDp1cGRhdGUsdGVtcGxhdGVzX2ZpZWxkOmRlbGV0ZSxsb2NhdGlvbl9zdGF0ZTpjcmVhdGUsbG9jYXRpb25fc3RhdGU6dmlldyxsb2NhdGlvbl9zdGF0ZTp1cGRhdGUsbG9jYXRpb25fc3RhdGU6ZGVsZXRlLGxvY2F0aW9uX2NpdHk6Y3JlYXRlLGxvY2F0aW9uX2NpdHk6dmlldyxsb2NhdGlvbl9jaXR5OnVwZGF0ZSxsb2NhdGlvbl9jaXR5OmRlbGV0ZSxkb2N1bWVudDpjcmVhdGUsZG9jdW1lbnQ6dmlldyxkb2N1bWVudDp1cGRhdGUsZG9jdW1lbnQ6ZGVsZXRlLG1hcmtldF9wbGFjZV9uYXY6Y3JlYXRlLG1hcmtldF9wbGFjZV9uYXY6dmlldyxtYXJrZXRfcGxhY2VfbmF2OnVwZGF0ZSxtYXJrZXRfcGxhY2VfbmF2OmRlbGV0ZSxvcmRlcl90cmFjazpjcmVhdGUsb3JkZXJfdHJhY2s6dmlldyxvcmRlcl90cmFjazp1cGRhdGUsb3JkZXJfdHJhY2s6ZGVsZXRlLHBhcnRuZXJfYWNjb3VudDpjcmVhdGUscGFydG5lcl9hY2NvdW50OnZpZXcscGFydG5lcl9hY2NvdW50OnVwZGF0ZSxwYXJ0bmVyX2FjY291bnQ6ZGVsZXRlLGN1c3RvbV90YWJsZV9oZWFkZXI6Y3JlYXRlLGN1c3RvbV90YWJsZV9oZWFkZXI6dmlldyxjdXN0b21fdGFibGVfaGVhZGVyOnVwZGF0ZSxjdXN0b21fdGFibGVfaGVhZGVyOmRlbGV0ZSx3b3JrZmxvd19zdGF0dXM6Y3JlYXRlLHdvcmtmbG93X3N0YXR1czp2aWV3LHdvcmtmbG93X3N0YXR1czp1cGRhdGUsd29ya2Zsb3dfc3RhdHVzOmRlbGV0ZSx1c2VyZ3JvdXA6Y3JlYXRlLHVzZXJncm91cDp2aWV3LHVzZXJncm91cDp1cGRhdGUsdXNlcmdyb3VwOmRlbGV0ZSIsImlhdCI6MTcwMTY1ODUzMywiZXhwIjoxNzAyMjYzMzMzfQ.AC-lIlkj7dnYSKse7FvCKzQVnmHEtge3Ycdc6r3qf4w"
+            },
+            "tests": []
+        },
+        {
+            "_id": "e7e22b63-8008-4221-9556-8079a17085cc",
+            "colId": "708d1d6d-3201-4b80-aac6-5c0e1a18f466",
+            "containerId": "",
+            "name": "http://143.110.177.137:9000/account/domain/bas-mart.com",
+            "url": "http://143.110.177.137:9000/account/domain/bas-mart.com",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-01-16T10:22:14.202Z",
+            "modified": "2024-01-16T10:22:14.202Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "b2b-permission",
+    "dateExported": "2024-01-20T08:39:26.358Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ee3c21fa-3cd4-49fb-bab3-6690bb7e721c",
+            "colId": "783cbbbc-43d5-437c-a66a-8c020aff4ef5",
+            "containerId": "",
+            "name": "http://0.0.0.0:8000/permission",
+            "url": "http://0.0.0.0:8000/permission",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-16T10:22:14.208Z",
+            "modified": "2024-01-16T10:22:14.208Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiYWNjb3VudF9pZCI6ImFmY2E5MjAxLWRlZGMtNGI2OS1hZjczLTg4OGE1MjQ2ZTc3NyIsInBhcnRuZXJfaWQiOiJhZDE1MDFjNS02ZWZjLTQxNWUtOGUxMC0wZjdjOTI5NTk0MjkiLCJmaXJzdF9uYW1lIjoic3VyZXNoX2FkbWluIiwibGFzdF9uYW1lIjpudWxsLCJyb2xlcyI6IlN1YlN1cGVyYWRtaW4iLCJlbWFpbCI6InN1cmVzaF9hZG1pbkBzdXJlc2guY29tIiwidXNlcl9ncm91cCI6bnVsbCwic2NvcGUiOiIiLCJpYXQiOjE2OTc2NTA3MjgsImV4cCI6MTY5ODI1NTUyOH0.Qu75btPXf9yR6sbFbHMKgnIls1GOOPpCc1RkQscnhu4"
+            },
+            "tests": []
+        }
+    ]
+}
