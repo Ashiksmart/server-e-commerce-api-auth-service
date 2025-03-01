@@ -33,7 +33,7 @@
     "util": "^0.12.5",
     "uuid": "^9.0.0",
     "xss": "^1.0.14",
-    "@hapi/glue": "8.x.x"   // Moved to dependencies
+    "@hapi/glue": "8.x.x"
   },
   "devDependencies": {
     "@hapi/code": "8.x.x",
