@@ -34,6 +34,7 @@
     "uuid": "^9.0.0",
     "xss": "^1.0.14",
     "@hapi/glue": "8.x.x",
+    "@hapipal/confidence": "6.x.x",
     "exiting": "6.x.x",
     "dotenv": "8.x.x"
   },
@@ -43,7 +44,6 @@
     "@hapi/eslint-plugin-hapi": "4.x.x",
     "@hapi/hapi": "20.x.x",
     "@hapi/lab": "24.x.x",
-    "@hapipal/confidence": "6.x.x",
     "@hapipal/hpal": "3.x.x",
     "@hapipal/hpal-debug": "2.x.x",
     "@hapipal/toys": "3.x.x",
